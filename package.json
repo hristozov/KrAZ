@@ -1,0 +1,21 @@
+{
+    "name" : "kraz",
+    "preferGlobal" : false,
+    "version" : "0.0.1",
+    "author": "Georgi Hristozov <georgi@forkbomb.nl>",
+    "description" : "A very experimental Scheme to JS translator.",
+    "license" : "BSD",
+    "dependencies" : {
+        "grunt" : "0.4.x",
+        "grunt-contrib-coffee" : "0.7.x",
+        "grunt-jasmine-node" : "0.1.x",
+        "pegjs" : "0.7.x"
+    },
+    "scripts" : {
+        "//" : "XXX: Remove this, use node-gyp.",
+        "install" : "grunt"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}
